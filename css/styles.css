@@ -1,7 +1,7 @@
 /* Typography */
 
 html {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Muli', sans-serif;
 }
 
 @media (min-width: 576px) {
@@ -34,22 +34,113 @@ html {
 
 /* Custom Styles */
 
-main {
+body {
+	padding: 20px;
+	font-family: 'Muli'
+}
+
+.site-page {
+	min-height: calc(100vh - 40px);
+	padding: 20px;
+	box-shadow: 1px 2px 5px 0 rgba(0, 0, 0, 0.2), 0 -1px 5px 0 rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.site-page--home {
 	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-	justify-content: center;
-	padding: 0 30px;
+	height: 100%;
+	justify-content: flex-start;
+	background: #212121;
+}
+
+.site-page--about {
+	background: #B7DAED;
+	padding: 20px;
+	height: 100%;
+}
+
+.site-page--portfolio {
+	background: #F1D1D1;
+	padding: 20px;
+	height: 100%;
+}
+
+.site-page--contact {
+	background: #212121;
+	padding: 20px;
+	height: 100%;
+}
+
+
+.contact--contact,.port--port, .about--about {
+	padding: 40px;
+}
+
+.port-main{
+	margin-top: 20px;
+}
+
+.contact-main{
+	font-size: 2em;
+	font-weight: 400;
+	color: white;
+	line-height: 2;
+	margin-top: 20px;
+}
+
+.highlight {
+	color: #F57C00;
+}
+
+.contact-header,.port-header, .about-header {
+	font-family: 'Fugaz One', sans-serif;
+	font-size: 3em;
+	font-weight: 400;
+	color: white;
+	/* transform: rotate(0.75turn); */
+	align-self: center;
+}
+
+ .port-prelude{
+	
+	font-weight: 400;
+	color: white;
+	line-height: 2;
+	margin-top: 20px;
+}
+
+ .about-main {
+	font-size: 1.5em;
+	font-weight: 400;
+	color: white;
+	line-height: 2;
+	margin-top: 20px;
+	/* position: absolute;
+	top: 25%;
+	left: -3.5%; */
+}
+
+.contact-icons{
+	margin-top: 50px;
+
+	border-radius: 10px;
 	text-align: center;
 }
 
-main > .intro {
-	font-family: 'Reem Kufi', sans-serif;
-	font-size: 3.75em;
+.intro--holder {
+	align-self: flex-end;
+	padding: 20px;
+	margin: 20px;
+}
+
+.intro--holder>.intro {
+	font-family: 'Fugaz One', sans-serif;
+	font-size: 3em;
 	font-weight: 600;
 }
 
-main > .tagline {
+.intro--holder>.tagline {
 	font-size: 1.5rem;
 	margin: 1.5rem 0;
 	font-weight: 100;
@@ -65,7 +156,46 @@ main > .tagline {
 
 .devto svg {
 	margin-bottom: -0.20rem;
-	margin-left: 0.675rem;;
+	margin-left: 0.675rem;
+	;
 	width: 2.65rem;
 	height: 2.65rem;
+}
+
+.next-page-icon {
+	margin-top: 50px;
+}
+
+.next-page-icon a {
+	color: white;
+}
+
+.next-page-icon i {
+	font-size: 3em;
+}
+
+
+.carousel-item {
+   
+    min-height: 50vh;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+.card{
+	background-color: #F5F5F5;
+	color: #757575;
+	border-radius: 5px;
+}
+
+.card-img-top{
+border-radius: 5px;
+}
+.card .out{
+	margin: 20px;
 }
