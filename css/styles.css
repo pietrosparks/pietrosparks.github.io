@@ -55,7 +55,18 @@
 		border-radius:10px;
 	}
 
-	
+	.port-main{
+		display: none !important;
+	}
+
+	.port-main-mobile{
+		display: block !important;
+		
+	}
+
+.card{
+	margin: 10px;
+}
 	
   }
   
@@ -92,7 +103,17 @@
 	body{
 		padding: 10px !important;
 	}
-	
+
+	.port-main{
+		display: none !important;
+	}
+	.port-main-mobile{
+		display: block !important;
+		
+	}
+	.card{
+		margin: 20px;
+	}
   }
 
 
@@ -137,6 +158,10 @@ html {
 body {
 	padding: 20px;
 	font-family: 'Muli'
+}
+
+.port-main-mobile{
+	display: none;
 }
 
 .site-page {
@@ -303,3 +328,4 @@ border-radius: 5px;
 .card .out{
 	margin: 20px;
 }
+
