@@ -70,7 +70,7 @@
 		font-family: 'Fugaz One', sans-serif;
 		font-size: 2em !important;
 		font-weight: 300;
-		color: #212121;
+		
 		/* transform: rotate(0.75turn); */
 		
 		
@@ -198,6 +198,9 @@ body {
 	font-size: 3em;
 	font-weight: 400;
 	color: white;
+
+	background-color: black;
+	padding: 5px;
 	/* transform: rotate(0.75turn); */
 
 
