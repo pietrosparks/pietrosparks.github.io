@@ -10,7 +10,8 @@
 
 	<link rel="icon" href="favicon.ico" type="image/png" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-	    crossorigin="anonymous">
+		crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Muli|Fugaz+One" rel="stylesheet">
 	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
@@ -31,13 +32,13 @@
 <body>
 	<main id="home" class="site-page site-page--home">
 
-		<div class="intro--holder">
+		<div id="typed-strings" class="intro--holder">
 			<div class="intro">Hello, I'm Theo !</div>
 			<div class="tagline"> A
 				<span class="highlight">Fullstack Developer</span> based in Lagos, Nigeria</div>
-
+				<span id="typed"></span>
 			
-			<div class="next-page-icon">
+			<div class="next-page-icon animated infinite pulse">
 				<a target="_blank" href="https://github.com/pietrosparks">
 					<i class="fa fa-chevron-circle-down"></i>
 				</a>
@@ -49,7 +50,7 @@
 	</main>
 	<section id="about" class="site-page site-page--about">
 		<div class="about--about">
-			<div class="about-header">About Me </div>
+			<div class="about-header animated  fadeInDown wow">About Me </div>
 			<div class="about-main">Hi There, I'm a 22 year old
 				<span class="highlight">Full Stack Developer</span>, currently living and working in Lagos. I create applications for web mostly using
 				<span class="highlight">JavaScript</span> technologies for development.
@@ -65,7 +66,7 @@
 
 	<section id="portfolio" class="site-page site-page--portfolio">
 		<div class="port--port">
-			<div class="port-header">Projects & Contributions </div>
+			<div class="port-header animated  fadeInDown wow">Projects & Contributions </div>
 			<div class="port-prelude">
 				I like to try out new tools and technologies to create apps/sites that somehow make my/someone else's life easier. Below
 				are some of the projects that I loved working on. Also, I'm extremely grateful to the entire Open Source community for
@@ -174,7 +175,7 @@
 
 	<section id="contact" class="site-page site-page--contact">
 		<div class="contact--contact">
-			<div class="contact-header">Lets Get In Touch </div>
+			<div class="contact-header animated  fadeInDown wow" >Lets Get In Touch </div>
 			<div class="contact-main">
 				I love meeting new people from around the world! <span class="highlight">Hit me up to talk about project ideas, Programming, JavaScript, Music, Books,  Or just say "Hi" and we'll find something we enjoy talking about.</span> You can
 				find me through any of the platform listed below.
@@ -205,6 +206,9 @@
 	</section>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+
 </body>
 
 </html>
